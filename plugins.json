@@ -1,0 +1,90 @@
+[
+    {
+        "url": "https://raw.githubusercontent.com/Luna712/extensions/builds/DailymotionProvider.cs3",
+        "status": 1,
+        "version": 4,
+        "name": "DailymotionProvider",
+        "internalName": "DailymotionProvider",
+        "authors": [
+            "Luna712"
+        ],
+        "description": "Watch content from Dailymotion",
+        "fileSize": 11674,
+        "repositoryUrl": "https://github.com/Luna712/extensions",
+        "tvTypes": [
+            "Others"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=www.dailymotion.com&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-f0904d6fd6afc40697c4666d32f979ebd9ccfd283da19d34d7e27e1d14ab7e9b",
+        "jarFileSize": 49937,
+        "jarUrl": "https://raw.githubusercontent.com/Luna712/extensions/builds/DailymotionProvider.jar",
+        "jarHash": "sha256-985f267e5f115553eaaa62f918673cac2ac46016e86037a2d3d3d8fed006d655"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Luna712/extensions/builds/InternetArchiveProvider.cs3",
+        "status": 1,
+        "version": 1,
+        "name": "InternetArchiveProvider",
+        "internalName": "InternetArchiveProvider",
+        "authors": [
+            "Luna712"
+        ],
+        "description": "Watch content from the Internet Archive at archive.org",
+        "fileSize": 27779,
+        "repositoryUrl": "https://github.com/Luna712/extensions",
+        "tvTypes": [
+            "Others"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=archive.org&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-40b55aa6d3ff1be46c7b9be898d04e1f9c486dcf7344fe6b265f02fd7489ea9c",
+        "jarFileSize": 125443,
+        "jarUrl": "https://raw.githubusercontent.com/Luna712/extensions/builds/InternetArchiveProvider.jar",
+        "jarHash": "sha256-99f86292a75ad4eab7180ed28bb644efe9ed4f7f7be268ab25659c831094e4ab"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Luna712/extensions/builds/InvidiousProvider.cs3",
+        "status": 1,
+        "version": 9,
+        "name": "InvidiousProvider",
+        "internalName": "InvidiousProvider",
+        "authors": [
+            "Cloudburst"
+        ],
+        "description": "Watch content from any invidious instance",
+        "fileSize": 13732,
+        "repositoryUrl": "https://github.com/Luna712/extensions",
+        "tvTypes": [
+            "Others"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=invidious.io&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-a0511236e3a44678fb2e091a3d79f4caa7adf5fb850b963c966a9869d87fdc5a",
+        "jarFileSize": 62251,
+        "jarUrl": "https://raw.githubusercontent.com/Luna712/extensions/builds/InvidiousProvider.jar",
+        "jarHash": "sha256-2ac031a28c128e67b7f55d6dc619e8e5cf0c75f8f230be0dac10bec890c6dc30"
+    },
+    {
+        "url": "https://raw.githubusercontent.com/Luna712/extensions/builds/TwitchProvider.cs3",
+        "status": 1,
+        "version": 2,
+        "name": "TwitchProvider",
+        "internalName": "TwitchProvider",
+        "authors": [
+            "CranberrySoup"
+        ],
+        "description": "Watch livestreams from Twitch",
+        "fileSize": 15395,
+        "repositoryUrl": "https://github.com/Luna712/extensions",
+        "tvTypes": [
+            "Live"
+        ],
+        "iconUrl": "https://www.google.com/s2/favicons?domain=twitch.tv&sz=%size%",
+        "apiVersion": 1,
+        "fileHash": "sha256-de6dbf28157cc365eb0abcead9ca7699a31ce4a758fffc524310dff4f635a516",
+        "jarFileSize": 56965,
+        "jarUrl": "https://raw.githubusercontent.com/Luna712/extensions/builds/TwitchProvider.jar",
+        "jarHash": "sha256-372db9d40c546dc52e40003679994879e9c5e9a3019d5f2d3dc81275d5281870"
+    }
+]
