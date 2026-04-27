@@ -12,7 +12,6 @@ on:
       # choose your default branch
       - master
       - main
-      - deps
     paths-ignore:
       - '*.md'
 
