@@ -12,6 +12,7 @@ on:
       # choose your default branch
       - master
       - main
+      - deps
     paths-ignore:
       - '*.md'
 
@@ -20,12 +21,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@main
+        uses: actions/checkout@v6
         with:
           path: "src"
 
       - name: Checkout builds
-        uses: actions/checkout@main
+        uses: actions/checkout@v6
         with:
           ref: "builds"
           path: "builds"
