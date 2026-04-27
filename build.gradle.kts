@@ -1,6 +1,4 @@
-import com.android.build.api.dsl.LibraryExtension
 import com.lagradost.cloudstream3.gradle.CloudstreamExtension
-import org.gradle.api.plugins.JavaPluginExtension
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 import org.jetbrains.kotlin.gradle.tasks.KotlinJvmCompile
 
@@ -29,20 +27,6 @@ allprojects {
 }
 
 fun Project.cloudstream(configuration: CloudstreamExtension.() -> Unit) = extensions.getByName<CloudstreamExtension>("cloudstream").configuration()
-
-fun Project.android(configuration: LibraryExtension.() -> Unit) {
-    extensions.getByName<LibraryExtension>("android").apply {
-        project.extensions.findByType(JavaPluginExtension::class.java)?.apply {
-            // Use Java 17 toolchain even if a higher JDK runs the build.
-            // We still use Java 8 for now which higher JDKs have deprecated.
-            toolchain {
-                languageVersion.set(JavaLanguageVersion.of(17))
-            }
-        }
-
-        configuration()
-    }
-}
 
 subprojects {
     apply(plugin = "com.android.library")
